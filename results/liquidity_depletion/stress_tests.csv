@@ -1,0 +1,33 @@
+scenario,source,observed,expectation,pass,split,variant
+large_no_trade_depth_loss,synthetic_stream,1,1,True,,
+rapid_replenishment_persistence,synthetic_stream,1.0,1.0,True,,
+aggressive_trades_absorbed_without_reprice,synthetic_stream,"(0, 10)","(0, 10)",True,,
+sudden_price_jump_new_queue,synthetic_stream,"(0, 0, 0, 0)","(0, 0, 0, 0)",True,,
+thin_brry_depth_guard,synthetic_stream,0.6,0.6,True,,
+own_orders_at_touch,synthetic_stream,own_touch,own_touch,True,,
+signal_reverses_before_execution,execution_semantics,requires next-batch quote recheck,requires next-batch quote recheck,True,,
+partial_ioc_fills,design_gate,IOC disabled: no orders submitted,IOC disabled: no orders submitted,True,,
+halt_and_reconnect_reset,synthetic_stream,"('invalid', 'warmup', 'warmup')","('invalid', 'warmup', 'warmup')",True,,
+simultaneous_etf_basket_changes,synthetic_stream,"[1, 1, 1]","[1, 1, 1]",True,,
+extended_low_liquidity_empty_side,synthetic_stream,invalid,invalid,True,,
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,128.741,USD delta vs identically stressed frozen baseline,True,train,asymmetric
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,0.0,USD delta vs identically stressed frozen baseline,True,train,baseline
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,260.887,USD delta vs identically stressed frozen baseline,True,train,depletion_plus_ofi
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,183.921,USD delta vs identically stressed frozen baseline,True,train,protection
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,151.221,USD delta vs identically stressed frozen baseline,True,train,replenishment
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,336.761,USD delta vs identically stressed frozen baseline,True,train,asymmetric
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,0.0,USD delta vs identically stressed frozen baseline,True,train,baseline
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,322.177,USD delta vs identically stressed frozen baseline,True,train,depletion_plus_ofi
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,327.991,USD delta vs identically stressed frozen baseline,True,train,protection
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,236.741,USD delta vs identically stressed frozen baseline,True,train,replenishment
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,25.26,USD delta vs identically stressed frozen baseline,True,validation,asymmetric
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,0.0,USD delta vs identically stressed frozen baseline,True,validation,baseline
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,2.792,USD delta vs identically stressed frozen baseline,True,validation,depletion_plus_ofi
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,24.884,USD delta vs identically stressed frozen baseline,True,validation,protection
+uniform_fill_value_haircut_1c,historical_replay_sensitivity,45.769,USD delta vs identically stressed frozen baseline,True,validation,replenishment
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,88.61,USD delta vs identically stressed frozen baseline,True,validation,asymmetric
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,0.0,USD delta vs identically stressed frozen baseline,True,validation,baseline
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,15.282,USD delta vs identically stressed frozen baseline,True,validation,depletion_plus_ofi
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,62.114,USD delta vs identically stressed frozen baseline,True,validation,protection
+uniform_fill_value_haircut_2c,historical_replay_sensitivity,64.949,USD delta vs identically stressed frozen baseline,True,validation,replenishment
+crowded_best_price_queue,model_limit,true queue loss unobservable; see uniform fill-value haircuts,no exchange-performance claim,True,,

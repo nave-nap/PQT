@@ -1,0 +1,61 @@
+{
+  "version": "liquidity-policy-v1",
+  "training_sessions": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16"
+  ],
+  "enabled_symbols": [
+    "HPPO"
+  ],
+  "reason": "HPPO had negative training fill markout under strong adverse depletion; BRRY did not",
+  "window_batches": 40,
+  "hysteresis_exit_ratio": 0.65,
+  "min_hold_batches": 6,
+  "replenishment_recovery_ratio": 0.5,
+  "max_widen_cents": 6,
+  "symbols": {
+    "HPPO": {
+      "low_threshold": -0.0755848838529156,
+      "high_threshold": 0.06867006090218904,
+      "train_low_return_cents": -5.909610364084237,
+      "train_high_return_cents": 3.0855737971663246,
+      "ofi_abs_threshold": 0.249848
+    },
+    "BNKY": {
+      "low_threshold": -0.05689712492961581,
+      "high_threshold": 0.054890546096244816,
+      "train_low_return_cents": -1.4687765139720788,
+      "train_high_return_cents": 1.4256539402322153,
+      "ofi_abs_threshold": 0.139909
+    },
+    "BRRY": {
+      "low_threshold": -0.06564900280778482,
+      "high_threshold": 0.06316256531404113,
+      "train_low_return_cents": -1.7747383931744323,
+      "train_high_return_cents": 0.3748080559286764,
+      "ofi_abs_threshold": 0.193951
+    },
+    "CRRT": {
+      "low_threshold": -0.06026973176966039,
+      "high_threshold": 0.0586541583117768,
+      "train_low_return_cents": -0.649219885828606,
+      "train_high_return_cents": 1.5443132516874927,
+      "ofi_abs_threshold": 0.142036
+    }
+  },
+  "trading_enabled_by_default": false
+}

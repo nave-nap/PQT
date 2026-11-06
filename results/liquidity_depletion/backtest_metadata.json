@@ -1,0 +1,52 @@
+{
+  "sessions": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20"
+  ],
+  "variants": [
+    "baseline",
+    "protection",
+    "asymmetric",
+    "replenishment",
+    "depletion_plus_ofi"
+  ],
+  "competition_preset": "balanced",
+  "sdk_client_version": "0.2.3",
+  "rules": {
+    "exposure_limit": 600,
+    "max_open_orders_per_symbol": 40,
+    "max_msgs_per_batch": 20,
+    "market_cap_bps": 100,
+    "taker_fee_mills": 4,
+    "maker_rebate_mills": 2,
+    "conversion_fee_mills": 20,
+    "self_trade_penalty_mills": 100,
+    "etf": "HPPO",
+    "basket": {
+      "BNKY": 1,
+      "BRRY": 2
+    }
+  },
+  "full_horizon": "exclude last 120 fill batches",
+  "policy_file": "policy.json",
+  "predictor_file": "predictor.json",
+  "command": "research/run_liquidity_backtests.py --workers 4"
+}
