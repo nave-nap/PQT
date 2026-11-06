@@ -6,3 +6,4 @@ data/
 pqt-runs/
 *.log
 .env
+/results/news_capture/
