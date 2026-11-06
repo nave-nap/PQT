@@ -1,0 +1,13 @@
+{
+  "frozen": true,
+  "tuning_case": "base",
+  "selected_variant": "microprice",
+  "overrides": {},
+  "strategy_file": "strategies/final_strategy.py",
+  "base_config": "results/strategy_config.json",
+  "base_config_sha256": "d86d00333bd74d828c6f050097260b2120e9871a237e7fc60a3fdbf68f02ee5d",
+  "validation_comparison_sha256": "aabd54b48cd0bcca175ce9fd8dd32c1fef972dda7b3258fb7aba29052a59ee65",
+  "validation_sessions": ["s17", "s18", "s19", "s20"],
+  "reserved_holdout_sessions": ["s21", "s22", "s23", "s24"],
+  "selection_reason": "The microprice variant had $413.33 mean net 60-second public-mid markout on validation versus $387.84 for the combined strategy, and beat combined in all four sessions. It had zero rejects, positive markout in all 16 training and four validation sessions, and $224.04 mean stressed validation markout. The official BNKY-only baseline averaged $477.36 validation markout, but this was concentrated in s18; its mean stressed validation markout was $92.77 and it had four negative training markout sessions. The simpler microprice strategy is the more consistent choice under the predeclared protocol. These are proxies, not official score estimates."
+}

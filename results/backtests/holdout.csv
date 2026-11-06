@@ -1,0 +1,9 @@
+phase,variant,session,split,estimated_pnl_usd,realized_pnl_usd,net_fees_usd,fills,shares,maker_fills,taker_fills,maker_shares,taker_shares,avg_spread_capture_cents,net_markout_60_usd,stress_markout_usd,stress_shares,max_abs_exposure,max_abs_worst_exposure,max_open_orders,max_messages_batch,reject_count,messages,order_to_trade_ratio,conversions,max_pos_HPPO,max_pos_BNKY,max_pos_CRRT,max_pos_BRRY,max_worst_pos_HPPO,max_worst_pos_BNKY,max_worst_pos_CRRT,max_worst_pos_BRRY,max_open_HPPO,max_open_BNKY,max_open_CRRT,max_open_BRRY
+holdout,microprice,s21,holdout,357.987,361.351,-26.468,1499,13234,1499,0,13234,0,3.0031,386.163,211.62,9685,77.9,97.995,8,8,0,6082,4.0574,0,61,62,73,41,73,76,86,48,2,2,2,2
+holdout,microprice,s22,holdout,296.047,297.886,-22.916,1305,11458,1305,0,11458,0,3.1205,352.076,189.299,8727,88.125,109.97,8,8,0,5917,4.5341,0,69,55,87,56,82,69,100,62,2,2,2,2
+holdout,microprice,s23,holdout,458.334,457.23,-27.868,1561,13934,1561,0,13934,0,3.1924,458.678,225.614,10632,72.73,94.15,8,8,0,6710,4.2985,0,60,55,83,46,73,69,97,53,2,2,2,2
+holdout,microprice,s24,holdout,458.193,461.872,-30.5,1589,15250,1589,0,15250,0,3.182,476.815,265.246,11668,72.495,94.055,8,8,0,6956,4.3776,0,71,72,83,80,84,86,97,80,2,2,2,2
+holdout,official,s21,holdout,-304.442,-299.819,-41.7,580,20850,580,0,20850,0,1.2701,-368.61,-444.436,15867,81.0,81.75,2,2,0,925,1.5948,0,0,540,0,0,0,545,0,0,0,2,0,0
+holdout,official,s22,holdout,145.693,161.297,-49.05,764,24525,764,0,24525,0,1.2429,168.55,-60.593,18516,82.05,82.05,2,2,0,962,1.2592,0,0,547,0,0,0,547,0,0,0,2,0,0
+holdout,official,s23,holdout,-208.699,-207.006,-30.274,440,15137,440,0,15137,0,0.9069,-134.301,-205.605,11080,81.9,82.35,2,2,0,721,1.6386,0,0,546,0,0,0,549,0,0,0,2,0,0
+holdout,official,s24,holdout,171.981,176.054,-63.126,890,31563,890,0,31563,0,1.494,261.986,-72.203,22796,81.9,81.9,2,2,0,1214,1.364,0,0,546,0,0,0,546,0,0,0,2,0,0

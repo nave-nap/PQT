@@ -1,0 +1,11 @@
+{
+  "session": "s01",
+  "decision_batch": 500,
+  "history_batches": 241,
+  "symbols_per_call": 4,
+  "repeats": 200,
+  "median_four_symbol_ms": 4.365166008938104,
+  "p95_four_symbol_ms": 4.496124980505556,
+  "max_four_symbol_ms": 4.750833031721413,
+  "exchange_batch_ms": 500
+}

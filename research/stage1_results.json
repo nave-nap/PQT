@@ -1,0 +1,2195 @@
+{
+  "protocol": "Stage 1 descriptive statistics use all 24 sessions. Predictive signal estimates use s01-s16 only; s17-s20 and s21-s24 have no inspected future labels here.",
+  "horizons_seconds": [
+    1,
+    5,
+    10,
+    30,
+    60
+  ],
+  "audits": [
+    {
+      "session": "s01",
+      "top_rows": 21600,
+      "trade_rows": 52144,
+      "missing_bid": 13,
+      "missing_ask": 3,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s02",
+      "top_rows": 21600,
+      "trade_rows": 54740,
+      "missing_bid": 38,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s03",
+      "top_rows": 21600,
+      "trade_rows": 57235,
+      "missing_bid": 37,
+      "missing_ask": 35,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s04",
+      "top_rows": 21600,
+      "trade_rows": 51082,
+      "missing_bid": 2,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s05",
+      "top_rows": 21600,
+      "trade_rows": 52907,
+      "missing_bid": 1,
+      "missing_ask": 338,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s06",
+      "top_rows": 21600,
+      "trade_rows": 58888,
+      "missing_bid": 54,
+      "missing_ask": 32,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s07",
+      "top_rows": 21600,
+      "trade_rows": 53992,
+      "missing_bid": 0,
+      "missing_ask": 77,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s08",
+      "top_rows": 21600,
+      "trade_rows": 50839,
+      "missing_bid": 155,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s09",
+      "top_rows": 21600,
+      "trade_rows": 53070,
+      "missing_bid": 2,
+      "missing_ask": 15,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s10",
+      "top_rows": 21600,
+      "trade_rows": 48877,
+      "missing_bid": 0,
+      "missing_ask": 2,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s11",
+      "top_rows": 21600,
+      "trade_rows": 51148,
+      "missing_bid": 0,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s12",
+      "top_rows": 21600,
+      "trade_rows": 54495,
+      "missing_bid": 2,
+      "missing_ask": 1,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s13",
+      "top_rows": 21600,
+      "trade_rows": 57784,
+      "missing_bid": 0,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s14",
+      "top_rows": 21600,
+      "trade_rows": 53361,
+      "missing_bid": 0,
+      "missing_ask": 19,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s15",
+      "top_rows": 21600,
+      "trade_rows": 52128,
+      "missing_bid": 0,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s16",
+      "top_rows": 21600,
+      "trade_rows": 54851,
+      "missing_bid": 194,
+      "missing_ask": 1,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s17",
+      "top_rows": 21600,
+      "trade_rows": 50146,
+      "missing_bid": 7,
+      "missing_ask": 1,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s18",
+      "top_rows": 21600,
+      "trade_rows": 52714,
+      "missing_bid": 96,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s19",
+      "top_rows": 21600,
+      "trade_rows": 53532,
+      "missing_bid": 48,
+      "missing_ask": 219,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s20",
+      "top_rows": 21600,
+      "trade_rows": 55060,
+      "missing_bid": 3,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s21",
+      "top_rows": 21600,
+      "trade_rows": 49798,
+      "missing_bid": 0,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s22",
+      "top_rows": 21600,
+      "trade_rows": 50946,
+      "missing_bid": 0,
+      "missing_ask": 0,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s23",
+      "top_rows": 21600,
+      "trade_rows": 50028,
+      "missing_bid": 0,
+      "missing_ask": 29,
+      "non_trading": 0,
+      "self_trades": 0
+    },
+    {
+      "session": "s24",
+      "top_rows": 21600,
+      "trade_rows": 51787,
+      "missing_bid": 11,
+      "missing_ask": 52,
+      "non_trading": 0,
+      "self_trades": 0
+    }
+  ],
+  "descriptive": [
+    {
+      "session": "s01",
+      "symbol": "HPPO",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 154.0,
+      "median_ask_qty": 161.0,
+      "traded_shares": 600880,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s01",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 387.0,
+      "median_ask_qty": 321.0,
+      "traded_shares": 1189019,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s01",
+      "symbol": "CRRT",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 292.0,
+      "median_ask_qty": 260.0,
+      "traded_shares": 987554,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s01",
+      "symbol": "BRRY",
+      "median_spread_cents": 7.0,
+      "p90_spread_cents": 13.0,
+      "median_bid_qty": 37.0,
+      "median_ask_qty": 45.0,
+      "traded_shares": 232221,
+      "two_sided_fraction": 0.997037037037037
+    },
+    {
+      "session": "s02",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 130.0,
+      "median_ask_qty": 162.0,
+      "traded_shares": 586424,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s02",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 260.0,
+      "median_ask_qty": 280.0,
+      "traded_shares": 1034685,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s02",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 245.0,
+      "median_ask_qty": 188.0,
+      "traded_shares": 1203653,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s02",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 20.0,
+      "median_bid_qty": 44.0,
+      "median_ask_qty": 44.0,
+      "traded_shares": 198654,
+      "two_sided_fraction": 0.9929629629629629
+    },
+    {
+      "session": "s03",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 140.0,
+      "median_ask_qty": 140.0,
+      "traded_shares": 826261,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s03",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 300.0,
+      "median_ask_qty": 320.0,
+      "traded_shares": 1348208,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s03",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 277.0,
+      "median_ask_qty": 279.0,
+      "traded_shares": 1058210,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s03",
+      "symbol": "BRRY",
+      "median_spread_cents": 8.0,
+      "p90_spread_cents": 10.0,
+      "median_bid_qty": 28.0,
+      "median_ask_qty": 28.0,
+      "traded_shares": 223075,
+      "two_sided_fraction": 0.9866666666666667
+    },
+    {
+      "session": "s04",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 110.0,
+      "median_ask_qty": 174.0,
+      "traded_shares": 544005,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s04",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 276.0,
+      "median_ask_qty": 307.0,
+      "traded_shares": 849803,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s04",
+      "symbol": "CRRT",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 270.0,
+      "median_ask_qty": 331.0,
+      "traded_shares": 1068350,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s04",
+      "symbol": "BRRY",
+      "median_spread_cents": 13.0,
+      "p90_spread_cents": 19.0,
+      "median_bid_qty": 41.0,
+      "median_ask_qty": 41.0,
+      "traded_shares": 192917,
+      "two_sided_fraction": 0.9996296296296296
+    },
+    {
+      "session": "s05",
+      "symbol": "HPPO",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 150.0,
+      "median_ask_qty": 150.0,
+      "traded_shares": 652639,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s05",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 4.0,
+      "median_bid_qty": 320.0,
+      "median_ask_qty": 298.5,
+      "traded_shares": 1046346,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s05",
+      "symbol": "CRRT",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 330.0,
+      "median_ask_qty": 365.0,
+      "traded_shares": 1115783,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s05",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 43.0,
+      "median_ask_qty": 25.0,
+      "traded_shares": 243725,
+      "two_sided_fraction": 0.9372222222222222
+    },
+    {
+      "session": "s06",
+      "symbol": "HPPO",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 122.0,
+      "median_ask_qty": 130.0,
+      "traded_shares": 762890,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s06",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 347.0,
+      "median_ask_qty": 334.0,
+      "traded_shares": 1029582,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s06",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 240.0,
+      "median_ask_qty": 240.0,
+      "traded_shares": 1204996,
+      "two_sided_fraction": 0.9916666666666667
+    },
+    {
+      "session": "s06",
+      "symbol": "BRRY",
+      "median_spread_cents": 13.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 34.0,
+      "median_ask_qty": 34.0,
+      "traded_shares": 219415,
+      "two_sided_fraction": 0.9924074074074074
+    },
+    {
+      "session": "s07",
+      "symbol": "HPPO",
+      "median_spread_cents": 7.0,
+      "p90_spread_cents": 9.0,
+      "median_bid_qty": 130.0,
+      "median_ask_qty": 123.0,
+      "traded_shares": 610042,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s07",
+      "symbol": "BNKY",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 240.0,
+      "median_ask_qty": 235.0,
+      "traded_shares": 1224487,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s07",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 194.0,
+      "median_ask_qty": 190.0,
+      "traded_shares": 1033347,
+      "two_sided_fraction": 0.9857407407407407
+    },
+    {
+      "session": "s07",
+      "symbol": "BRRY",
+      "median_spread_cents": 9.0,
+      "p90_spread_cents": 14.0,
+      "median_bid_qty": 35.0,
+      "median_ask_qty": 36.0,
+      "traded_shares": 152412,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s08",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 140.0,
+      "median_ask_qty": 150.0,
+      "traded_shares": 747136,
+      "two_sided_fraction": 0.9864814814814815
+    },
+    {
+      "session": "s08",
+      "symbol": "BNKY",
+      "median_spread_cents": 2.0,
+      "p90_spread_cents": 4.0,
+      "median_bid_qty": 320.0,
+      "median_ask_qty": 300.0,
+      "traded_shares": 958240,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s08",
+      "symbol": "CRRT",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 266.5,
+      "median_ask_qty": 282.0,
+      "traded_shares": 977219,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s08",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 36.0,
+      "median_ask_qty": 49.0,
+      "traded_shares": 227873,
+      "two_sided_fraction": 0.9848148148148148
+    },
+    {
+      "session": "s09",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 120.0,
+      "median_ask_qty": 131.0,
+      "traded_shares": 584699,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s09",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 373.0,
+      "median_ask_qty": 343.0,
+      "traded_shares": 1062079,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s09",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 208.0,
+      "median_ask_qty": 349.5,
+      "traded_shares": 1121818,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s09",
+      "symbol": "BRRY",
+      "median_spread_cents": 13.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 40.0,
+      "median_ask_qty": 34.0,
+      "traded_shares": 195537,
+      "two_sided_fraction": 0.9968518518518519
+    },
+    {
+      "session": "s10",
+      "symbol": "HPPO",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 171.0,
+      "median_ask_qty": 145.0,
+      "traded_shares": 603208,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s10",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 276.0,
+      "median_ask_qty": 221.0,
+      "traded_shares": 1001827,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s10",
+      "symbol": "CRRT",
+      "median_spread_cents": 7.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 264.0,
+      "median_ask_qty": 248.0,
+      "traded_shares": 1020547,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s10",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 39.0,
+      "median_ask_qty": 31.0,
+      "traded_shares": 151539,
+      "two_sided_fraction": 0.9996296296296296
+    },
+    {
+      "session": "s11",
+      "symbol": "HPPO",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 11.0,
+      "median_bid_qty": 109.0,
+      "median_ask_qty": 114.0,
+      "traded_shares": 579401,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s11",
+      "symbol": "BNKY",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 286.5,
+      "median_ask_qty": 270.0,
+      "traded_shares": 1118334,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s11",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 181.0,
+      "median_ask_qty": 178.0,
+      "traded_shares": 880053,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s11",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 29.0,
+      "median_ask_qty": 25.0,
+      "traded_shares": 161644,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s12",
+      "symbol": "HPPO",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 143.0,
+      "median_ask_qty": 134.0,
+      "traded_shares": 582866,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s12",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 4.0,
+      "median_bid_qty": 256.0,
+      "median_ask_qty": 295.0,
+      "traded_shares": 1121207,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s12",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 270.0,
+      "median_ask_qty": 286.0,
+      "traded_shares": 1192201,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s12",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 14.0,
+      "median_bid_qty": 30.0,
+      "median_ask_qty": 27.0,
+      "traded_shares": 188640,
+      "two_sided_fraction": 0.9994444444444445
+    },
+    {
+      "session": "s13",
+      "symbol": "HPPO",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 9.0,
+      "median_bid_qty": 112.0,
+      "median_ask_qty": 110.0,
+      "traded_shares": 732081,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s13",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 280.0,
+      "median_ask_qty": 280.0,
+      "traded_shares": 1228935,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s13",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 183.0,
+      "median_ask_qty": 255.0,
+      "traded_shares": 1024850,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s13",
+      "symbol": "BRRY",
+      "median_spread_cents": 12.0,
+      "p90_spread_cents": 14.0,
+      "median_bid_qty": 41.0,
+      "median_ask_qty": 41.0,
+      "traded_shares": 200857,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s14",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 150.0,
+      "median_ask_qty": 153.0,
+      "traded_shares": 654873,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s14",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 310.0,
+      "median_ask_qty": 329.0,
+      "traded_shares": 962415,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s14",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 230.0,
+      "median_ask_qty": 280.0,
+      "traded_shares": 1198912,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s14",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 14.0,
+      "median_bid_qty": 36.0,
+      "median_ask_qty": 35.0,
+      "traded_shares": 236276,
+      "two_sided_fraction": 0.9964814814814815
+    },
+    {
+      "session": "s15",
+      "symbol": "HPPO",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 9.0,
+      "median_bid_qty": 200.0,
+      "median_ask_qty": 108.0,
+      "traded_shares": 599369,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s15",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 240.0,
+      "median_ask_qty": 275.0,
+      "traded_shares": 1046240,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s15",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 250.5,
+      "median_ask_qty": 191.0,
+      "traded_shares": 880441,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s15",
+      "symbol": "BRRY",
+      "median_spread_cents": 8.0,
+      "p90_spread_cents": 9.0,
+      "median_bid_qty": 40.0,
+      "median_ask_qty": 39.0,
+      "traded_shares": 175029,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s16",
+      "symbol": "HPPO",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 115.0,
+      "median_ask_qty": 149.0,
+      "traded_shares": 527283,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s16",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 4.0,
+      "median_bid_qty": 352.0,
+      "median_ask_qty": 320.0,
+      "traded_shares": 1069405,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s16",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 160.0,
+      "median_ask_qty": 208.5,
+      "traded_shares": 1115120,
+      "two_sided_fraction": 0.9887037037037038
+    },
+    {
+      "session": "s16",
+      "symbol": "BRRY",
+      "median_spread_cents": 13.0,
+      "p90_spread_cents": 16.0,
+      "median_bid_qty": 25.0,
+      "median_ask_qty": 34.0,
+      "traded_shares": 203457,
+      "two_sided_fraction": 0.9751851851851852
+    },
+    {
+      "session": "s17",
+      "symbol": "HPPO",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 140.0,
+      "median_ask_qty": 163.0,
+      "traded_shares": 650483,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s17",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 381.0,
+      "median_ask_qty": 324.0,
+      "traded_shares": 1016842,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s17",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 332.5,
+      "median_ask_qty": 315.0,
+      "traded_shares": 860216,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s17",
+      "symbol": "BRRY",
+      "median_spread_cents": 10.0,
+      "p90_spread_cents": 14.0,
+      "median_bid_qty": 30.0,
+      "median_ask_qty": 30.0,
+      "traded_shares": 201628,
+      "two_sided_fraction": 0.9985185185185185
+    },
+    {
+      "session": "s18",
+      "symbol": "HPPO",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 125.0,
+      "median_ask_qty": 130.0,
+      "traded_shares": 730264,
+      "two_sided_fraction": 0.9979629629629629
+    },
+    {
+      "session": "s18",
+      "symbol": "BNKY",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 375.5,
+      "median_ask_qty": 344.0,
+      "traded_shares": 1033960,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s18",
+      "symbol": "CRRT",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 220.0,
+      "median_ask_qty": 240.0,
+      "traded_shares": 938987,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s18",
+      "symbol": "BRRY",
+      "median_spread_cents": 11.0,
+      "p90_spread_cents": 17.0,
+      "median_bid_qty": 28.0,
+      "median_ask_qty": 28.0,
+      "traded_shares": 185345,
+      "two_sided_fraction": 0.9842592592592593
+    },
+    {
+      "session": "s19",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 140.0,
+      "median_ask_qty": 120.0,
+      "traded_shares": 767819,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s19",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 294.0,
+      "median_ask_qty": 284.0,
+      "traded_shares": 850297,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s19",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 230.0,
+      "median_ask_qty": 255.0,
+      "traded_shares": 1221661,
+      "two_sided_fraction": 0.9911111111111112
+    },
+    {
+      "session": "s19",
+      "symbol": "BRRY",
+      "median_spread_cents": 13.0,
+      "p90_spread_cents": 16.0,
+      "median_bid_qty": 30.0,
+      "median_ask_qty": 25.0,
+      "traded_shares": 192596,
+      "two_sided_fraction": 0.9594444444444444
+    },
+    {
+      "session": "s20",
+      "symbol": "HPPO",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 138.0,
+      "median_ask_qty": 140.0,
+      "traded_shares": 638404,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s20",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 229.0,
+      "median_ask_qty": 247.0,
+      "traded_shares": 1061287,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s20",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 218.0,
+      "median_ask_qty": 249.0,
+      "traded_shares": 1092720,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s20",
+      "symbol": "BRRY",
+      "median_spread_cents": 12.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 28.0,
+      "median_ask_qty": 30.0,
+      "traded_shares": 193388,
+      "two_sided_fraction": 0.9994444444444445
+    },
+    {
+      "session": "s21",
+      "symbol": "HPPO",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 140.0,
+      "median_ask_qty": 168.0,
+      "traded_shares": 572283,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s21",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 339.5,
+      "median_ask_qty": 342.5,
+      "traded_shares": 919500,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s21",
+      "symbol": "CRRT",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 225.0,
+      "median_ask_qty": 250.0,
+      "traded_shares": 948467,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s21",
+      "symbol": "BRRY",
+      "median_spread_cents": 9.0,
+      "p90_spread_cents": 15.0,
+      "median_bid_qty": 31.0,
+      "median_ask_qty": 31.0,
+      "traded_shares": 201415,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s22",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 6.0,
+      "median_bid_qty": 133.0,
+      "median_ask_qty": 150.0,
+      "traded_shares": 544752,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s22",
+      "symbol": "BNKY",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 308.5,
+      "median_ask_qty": 291.0,
+      "traded_shares": 1021094,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s22",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 300.0,
+      "median_ask_qty": 280.0,
+      "traded_shares": 950745,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s22",
+      "symbol": "BRRY",
+      "median_spread_cents": 14.0,
+      "p90_spread_cents": 17.0,
+      "median_bid_qty": 40.0,
+      "median_ask_qty": 35.0,
+      "traded_shares": 170594,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s23",
+      "symbol": "HPPO",
+      "median_spread_cents": 4.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 134.0,
+      "median_ask_qty": 150.0,
+      "traded_shares": 559090,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s23",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 314.0,
+      "median_ask_qty": 329.0,
+      "traded_shares": 845089,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s23",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 219.0,
+      "median_ask_qty": 180.0,
+      "traded_shares": 1232729,
+      "two_sided_fraction": 0.9946296296296296
+    },
+    {
+      "session": "s23",
+      "symbol": "BRRY",
+      "median_spread_cents": 13.0,
+      "p90_spread_cents": 16.0,
+      "median_bid_qty": 38.0,
+      "median_ask_qty": 43.0,
+      "traded_shares": 192569,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s24",
+      "symbol": "HPPO",
+      "median_spread_cents": 6.0,
+      "p90_spread_cents": 8.0,
+      "median_bid_qty": 132.0,
+      "median_ask_qty": 152.0,
+      "traded_shares": 668199,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s24",
+      "symbol": "BNKY",
+      "median_spread_cents": 3.0,
+      "p90_spread_cents": 5.0,
+      "median_bid_qty": 250.0,
+      "median_ask_qty": 265.0,
+      "traded_shares": 1095579,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s24",
+      "symbol": "CRRT",
+      "median_spread_cents": 5.0,
+      "p90_spread_cents": 7.0,
+      "median_bid_qty": 209.0,
+      "median_ask_qty": 210.5,
+      "traded_shares": 962413,
+      "two_sided_fraction": 1.0
+    },
+    {
+      "session": "s24",
+      "symbol": "BRRY",
+      "median_spread_cents": 14.0,
+      "p90_spread_cents": 17.0,
+      "median_bid_qty": 41.0,
+      "median_ask_qty": 45.0,
+      "traded_shares": 224224,
+      "two_sided_fraction": 0.9883333333333333
+    }
+  ],
+  "signal_summary": [
+    {
+      "symbol": "BNKY",
+      "feature": "flow_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.04882970304422993,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -0.08839699074074074
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "flow_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": -0.031527479910679244,
+      "positive_sessions": 6,
+      "mean_top_bottom_cents": -0.08963454789616579
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "flow_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": -0.0030294831484366687,
+      "positive_sessions": 8,
+      "mean_top_bottom_cents": -0.004490974688743689
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "flow_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.03704141927450692,
+      "positive_sessions": 11,
+      "mean_top_bottom_cents": 0.3278054085515183
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.0789526463088723,
+      "positive_sessions": 13,
+      "mean_top_bottom_cents": 1.1558350288301655
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "imbalance",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.344478712631303,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.6263782672487014
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "imbalance",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.2941948150234781,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.8473939583419596
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "imbalance",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.23880755762623312,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.9643353039129167
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "imbalance",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.15282016977124774,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.3177059729331493
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.11766438015253254,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.6106082062242362
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "micro_offset",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.3143790278423759,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.5604261689707746
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "micro_offset",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.26620030646467147,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.7537791062168931
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "micro_offset",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.21695290163299408,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.8665502469021915
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "micro_offset",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.13875488544051104,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.1946356319102018
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.10773233795794748,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.4823727015145785
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "past_return_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.10003887483621432,
+      "positive_sessions": 1,
+      "mean_top_bottom_cents": -0.14610366650701245
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "past_return_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.0777090270619748,
+      "positive_sessions": 10,
+      "mean_top_bottom_cents": 0.2621517545162433
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "past_return_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.1878137471881995,
+      "positive_sessions": 14,
+      "mean_top_bottom_cents": 0.7999025485369008
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "past_return_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.2141824607408688,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.9165261032781116
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.144450694940934,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 2.114069186255416
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "flow_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.02295497367508928,
+      "positive_sessions": 1,
+      "mean_top_bottom_cents": -0.09792476158928715
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "flow_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.015286950718315498,
+      "positive_sessions": 13,
+      "mean_top_bottom_cents": 0.10752144472855885
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "flow_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.05563204037890916,
+      "positive_sessions": 14,
+      "mean_top_bottom_cents": 0.4819471056833755
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "flow_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.11189225158961297,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 1.7012463889444995
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.17537194278355922,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 3.9440083323619284
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "imbalance",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.14370814742267243,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.6062719504634922
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "imbalance",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.11753662429742212,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.7469918040440127
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "imbalance",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.09851802989024264,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.834793995210781
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "imbalance",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.05656334595973828,
+      "positive_sessions": 14,
+      "mean_top_bottom_cents": 0.9066206339454427
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.03789302420449678,
+      "positive_sessions": 12,
+      "mean_top_bottom_cents": 0.9384706484319043
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "micro_offset",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.1461488429655131,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.5968884247486862
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "micro_offset",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.1161095115804632,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.722373329105944
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "micro_offset",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.09757534968130227,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.831222342502535
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "micro_offset",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.05492335177000456,
+      "positive_sessions": 14,
+      "mean_top_bottom_cents": 0.9142026901878344
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.03622166717987694,
+      "positive_sessions": 13,
+      "mean_top_bottom_cents": 0.9528333382718871
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "past_return_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.1451995339889823,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -0.5120285371849094
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "past_return_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": -0.021319760801571157,
+      "positive_sessions": 6,
+      "mean_top_bottom_cents": -0.06097591018360968
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "past_return_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.04311204072023865,
+      "positive_sessions": 10,
+      "mean_top_bottom_cents": 0.4450417327829146
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "past_return_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.07591918435374931,
+      "positive_sessions": 10,
+      "mean_top_bottom_cents": 1.350560780457108
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.0356554043983864,
+      "positive_sessions": 10,
+      "mean_top_bottom_cents": 1.1099341733169399
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "flow_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.039793221997758685,
+      "positive_sessions": 1,
+      "mean_top_bottom_cents": -0.0857544291472814
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "flow_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": -0.019171562901469773,
+      "positive_sessions": 7,
+      "mean_top_bottom_cents": -0.06378192526967562
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "flow_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.0058747598368866435,
+      "positive_sessions": 10,
+      "mean_top_bottom_cents": 0.033488548458172604
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "flow_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.050913183355827674,
+      "positive_sessions": 10,
+      "mean_top_bottom_cents": 0.5164478146146075
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.08687176230451278,
+      "positive_sessions": 12,
+      "mean_top_bottom_cents": 1.359746695183192
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "imbalance",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.3353180481289991,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.6906343499617507
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "imbalance",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.2668573777656753,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.8377946432780896
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "imbalance",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.21563952380452486,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.9179111427203921
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "imbalance",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.13393201896144763,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.1202152162045755
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.0930559170189425,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.2309437668752936
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "micro_offset",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.31505353768086547,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.634593666785067
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "micro_offset",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.2506190615210308,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.7623203175672637
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "micro_offset",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.20393258298285372,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.851446866566556
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "micro_offset",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.12432968140442938,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.0119869645306603
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.0855229601353101,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.0950136125683012
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "past_return_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.13411051499109605,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -0.23540015544155793
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "past_return_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.014662950556394435,
+      "positive_sessions": 8,
+      "mean_top_bottom_cents": 0.07576306670679794
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "past_return_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.11064393612839464,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 0.4853818894941921
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "past_return_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.1758164738827011,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.5072077888992332
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.15081168596444355,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 2.0705394303070097
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "flow_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.02130740077130592,
+      "positive_sessions": 3,
+      "mean_top_bottom_cents": -0.071078218600614
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "flow_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.017711525714526624,
+      "positive_sessions": 10,
+      "mean_top_bottom_cents": 0.09012259955684127
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "flow_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.05479361660629811,
+      "positive_sessions": 13,
+      "mean_top_bottom_cents": 0.5076444296212332
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "flow_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.12282165782261098,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 2.6180422609628713
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.1833844624356974,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 6.550574564114809
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "imbalance",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.3009516917609778,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.8971324783163299
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "imbalance",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.20989211756750698,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.28870782649919
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "imbalance",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.16245749393154038,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.5655834401563864
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "imbalance",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.1048840183954432,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 2.2056521988350735
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.08163907187530223,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 2.7922007132706677
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "micro_offset",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.27579049633787023,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 0.8193773393529995
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "micro_offset",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.19405144445490702,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.1941305626492422
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "micro_offset",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.15406308728324206,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.4740362931412565
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "micro_offset",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.100008143025841,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 2.0520556099838076
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.07515556399527454,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 2.361892698942137
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "past_return_10s",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.07441203690299214,
+      "positive_sessions": 12,
+      "mean_top_bottom_cents": 0.21342357959976152
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "past_return_10s",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.2865832126821842,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.7285506308176755
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "past_return_10s",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.3450562077177474,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 3.312837161054348
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "past_return_10s",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.31197569015302906,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 6.835962984791626
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.22892909696513075,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 8.426484668092211
+    }
+  ],
+  "delayed_60s_summary": [
+    {
+      "symbol": "BNKY",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.084549267098669,
+      "positive_sessions": 13,
+      "mean_top_bottom_cents": 1.222112688722012
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.07955236711941764,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.1540980794903342
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.07292609396326707,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 1.073752025389057
+    },
+    {
+      "symbol": "BNKY",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.15776794451574302,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 2.2394031304568385
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.18030334665795555,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 4.064171412894739
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.01579214288544398,
+      "positive_sessions": 11,
+      "mean_top_bottom_cents": 0.4377878630212904
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.013223013805185512,
+      "positive_sessions": 8,
+      "mean_top_bottom_cents": 0.43252916897010585
+    },
+    {
+      "symbol": "BRRY",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.061255471309059464,
+      "positive_sessions": 12,
+      "mean_top_bottom_cents": 1.5843838257989393
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.09204784540342532,
+      "positive_sessions": 12,
+      "mean_top_bottom_cents": 1.425872087697738
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.05229153402693623,
+      "positive_sessions": 15,
+      "mean_top_bottom_cents": 0.7174371325766534
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.04720643129243763,
+      "positive_sessions": 14,
+      "mean_top_bottom_cents": 0.6198821109977863
+    },
+    {
+      "symbol": "CRRT",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.16905513158527422,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 2.2557024826374072
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "flow_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.1858309152238564,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 6.643302113603183
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "imbalance",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.0609736325117379,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 2.1297016588122384
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "micro_offset",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.056273028650427964,
+      "positive_sessions": 14,
+      "mean_top_bottom_cents": 1.7613593799872023
+    },
+    {
+      "symbol": "HPPO",
+      "feature": "past_return_10s",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.22804393252000305,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 8.361359256651257
+    }
+  ],
+  "etf_summary": [
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "HPPO_change",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.008856900237040853,
+      "positive_sessions": 7,
+      "mean_top_bottom_cents": -0.028551620222179684
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "HPPO_change",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.030789522280951998,
+      "positive_sessions": 9,
+      "mean_top_bottom_cents": 0.2084774672860475
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "HPPO_change",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.04394487984473355,
+      "positive_sessions": 9,
+      "mean_top_bottom_cents": 0.4569726250228227
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "HPPO_change",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.04384128223870652,
+      "positive_sessions": 8,
+      "mean_top_bottom_cents": 1.0320850852672643
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "HPPO_change",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.037942781062324335,
+      "positive_sessions": 9,
+      "mean_top_bottom_cents": 1.4504860888762459
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "basket_change",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": 0.14073779002550824,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 1.1497781691739455
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "basket_change",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": 0.16788986020761926,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 2.076984672536036
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "basket_change",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": 0.19403493994300414,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 3.2563537748330904
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "basket_change",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": 0.2690587372203951,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 8.280151294842437
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "basket_change",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": 0.31996319878794444,
+      "positive_sessions": 16,
+      "mean_top_bottom_cents": 14.687530475218464
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "gap_change",
+      "horizon_s": 1,
+      "sessions": 16,
+      "mean_corr": -0.13600515597621604,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -1.1786089651078813
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "gap_change",
+      "horizon_s": 5,
+      "sessions": 16,
+      "mean_corr": -0.14563580494902492,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -1.869169055516575
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "gap_change",
+      "horizon_s": 10,
+      "sessions": 16,
+      "mean_corr": -0.1665567975341347,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -2.7968412023142624
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "gap_change",
+      "horizon_s": 30,
+      "sessions": 16,
+      "mean_corr": -0.2638104839411013,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -7.27053189426265
+    },
+    {
+      "symbol": "HPPO_BASKET",
+      "feature": "gap_change",
+      "horizon_s": 60,
+      "sessions": 16,
+      "mean_corr": -0.3604213518097203,
+      "positive_sessions": 0,
+      "mean_top_bottom_cents": -13.250901665778981
+    }
+  ]
+}

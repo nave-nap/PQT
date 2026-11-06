@@ -1,0 +1,21 @@
+{
+  "version": "pqt-stage6-freeze-v1",
+  "selected_preset": "balanced",
+  "sdk": {
+    "pqt-client": "0.2.3",
+    "pqt-protocol": "0.2.3"
+  },
+  "primary": "strategies/competition_strategy.py",
+  "fallback": "strategies/final_strategy.py",
+  "preset_sha256": "3fcd60fa98c100f9ddfc08f337559e8497081eb56916cb6cef2a061449e464f8",
+  "file_sha256": {
+    "strategies/competition_strategy.py": "7c29b4ee668e0ec7413ece9ca54d389c916c67698700363c37d58eb14b72d4ae",
+    "strategies/final_strategy.py": "304f51d0cd631fdb54f03f9c30aeefba3c2912af9a2d308d85add7139b6321a2",
+    "strategies/our_strategy.py": "1d7b4cec3a55b69fb408985763db8332f8868e788072af67326029da9748a05b",
+    "strategies/our_components.py": "94678fd638cf74508a963a43e6febbddbaee48e0596bb0676a923b42a63cb314",
+    "results/competition_presets.json": "3fcd60fa98c100f9ddfc08f337559e8497081eb56916cb6cef2a061449e464f8",
+    "results/strategy_selected.json": "b7b144cc01c3f77d645899b7a387c3ab4c34475e1647988d529f3a3f011aeaa9",
+    "results/strategy_config.json": "d86d00333bd74d828c6f050097260b2120e9871a237e7fc60a3fdbf68f02ee5d"
+  },
+  "selection_basis": "Stage 5 predeclared validation selection; Stage 6 presets tested on s17-s20 only"
+}

@@ -1,0 +1,121 @@
+{
+  "sdk_result": {
+    "fills": 1,
+    "shares": 5,
+    "positions": {
+      "HPPO": 0,
+      "BNKY": 5,
+      "CRRT": 0,
+      "BRRY": 0
+    },
+    "rejects": {}
+  },
+  "events": {
+    "acks": [
+      {
+        "batch": 1,
+        "id": 1
+      },
+      {
+        "batch": 4,
+        "id": 2
+      }
+    ],
+    "replaced": [
+      {
+        "batch": 2,
+        "id": 1,
+        "price": 100,
+        "kept_priority": false
+      }
+    ],
+    "fills": [
+      {
+        "batch": 3,
+        "id": 1,
+        "qty": 5,
+        "remaining": 0
+      }
+    ],
+    "cancelled": [
+      {
+        "batch": 5,
+        "id": 2,
+        "reason": "USER"
+      }
+    ],
+    "rejects": []
+  },
+  "snapshots": [
+    {
+      "batch": 0,
+      "position": 0,
+      "open": [],
+      "long_worst": 0,
+      "short_worst": 0
+    },
+    {
+      "batch": 1,
+      "position": 0,
+      "open": [
+        [
+          1,
+          "BUY",
+          99,
+          5
+        ]
+      ],
+      "long_worst": 5,
+      "short_worst": 0
+    },
+    {
+      "batch": 2,
+      "position": 0,
+      "open": [
+        [
+          1,
+          "BUY",
+          100,
+          5
+        ]
+      ],
+      "long_worst": 5,
+      "short_worst": 0
+    },
+    {
+      "batch": 3,
+      "position": 5,
+      "open": [],
+      "long_worst": 5,
+      "short_worst": 5
+    },
+    {
+      "batch": 4,
+      "position": 5,
+      "open": [
+        [
+          2,
+          "SELL",
+          104,
+          5
+        ]
+      ],
+      "long_worst": 5,
+      "short_worst": 0
+    },
+    {
+      "batch": 5,
+      "position": 5,
+      "open": [],
+      "long_worst": 5,
+      "short_worst": 5
+    },
+    {
+      "batch": 6,
+      "position": 5,
+      "open": [],
+      "long_worst": 5,
+      "short_worst": 5
+    }
+  ]
+}

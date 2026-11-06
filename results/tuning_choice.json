@@ -1,0 +1,11 @@
+{
+  "tuning_case": "base",
+  "overrides": {},
+  "training_sessions": ["s02", "s06", "s10", "s14"],
+  "selection_rule": "Changed case needs at least 5% higher mean net 60-second future-mid markout, positive in all four sessions, zero rejects and exposure violations; otherwise keep defaults.",
+  "base_mean_markout_usd": 359.794,
+  "best_changed_case": "edge_2",
+  "best_changed_mean_markout_usd": 362.855,
+  "best_changed_improvement_pct": 0.851,
+  "reason": "No changed case met the predeclared 5% improvement threshold. Keep Stage 4 defaults."
+}

@@ -1,0 +1,35 @@
+{
+  "phase": "holdout",
+  "sessions": [
+    "s21",
+    "s22",
+    "s23",
+    "s24"
+  ],
+  "variants": [
+    "microprice",
+    "official"
+  ],
+  "pqt_client_version": "0.2.3",
+  "pqt_protocol_version": "0.2.3",
+  "python_version": "3.12.14",
+  "repository_commit": "267c876064c88a2bdc7be3343e054cb62876cae7",
+  "sdk_rules": {
+    "exposure_limit": 600,
+    "max_open_orders_per_symbol": 40,
+    "max_msgs_per_batch": 20,
+    "market_cap_bps": 100,
+    "taker_fee_mills": 4,
+    "maker_rebate_mills": 2,
+    "conversion_fee_mills": 20,
+    "self_trade_penalty_mills": 100,
+    "etf": "HPPO",
+    "basket": {
+      "BNKY": 1,
+      "BRRY": 2
+    }
+  },
+  "command": "research/run_backtests.py --phase holdout --workers 4",
+  "selection_overrides": {},
+  "selection_sha256": "b7b144cc01c3f77d645899b7a387c3ab4c34475e1647988d529f3a3f011aeaa9"
+}

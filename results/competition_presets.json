@@ -1,0 +1,42 @@
+{
+  "version": "pqt-competition-presets-v1",
+  "default": "balanced",
+  "base_selection": "results/strategy_selected.json",
+  "presets": {
+    "conservative": {
+      "purpose": "Reduce quote and inventory exposure after poor markouts, volatile books, or execution trouble.",
+      "params": {
+        "half_width": 4,
+        "quote_size": 8,
+        "inventory_skew": 6,
+        "min_quote_edge": 2,
+        "news_cooldown_s": 90
+      },
+      "config": {
+        "mm_position_caps": {"HPPO": 100, "BNKY": 150, "CRRT": 150, "BRRY": 50},
+        "quote_size_caps": {"HPPO": 8, "BNKY": 12, "CRRT": 12, "BRRY": 5},
+        "exposure_buffer": 200,
+        "message_reserve": 4,
+        "volatility_width_weight": 0.8,
+        "requote_ticks": 4
+      }
+    },
+    "balanced": {
+      "purpose": "Frozen Stage 5 microprice selection and validated defaults.",
+      "params": {},
+      "config": {}
+    },
+    "aggressive": {
+      "purpose": "Diagnostic higher-activity preset; use only if round-one evidence justifies it.",
+      "params": {
+        "half_width": 2,
+        "quote_size": 20,
+        "min_quote_edge": 0
+      },
+      "config": {
+        "quote_size_caps": {"HPPO": 20, "BNKY": 30, "CRRT": 30, "BRRY": 10},
+        "requote_ticks": 2
+      }
+    }
+  }
+}

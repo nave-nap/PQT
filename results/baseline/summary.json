@@ -1,0 +1,73 @@
+{
+  "python_version": "3.12.14",
+  "pqt_client_version": "0.2.3",
+  "pqt_protocol_version": "0.2.3",
+  "repository_commit": "267c876064c88a2bdc7be3343e054cb62876cae7",
+  "official_score_available": false,
+  "runs": [
+    {
+      "command": ".venv/bin/pqt backtest strategies/hello_world.py --data data --name s01",
+      "exit_code": 0,
+      "log": "results/baseline/hello_world_s01.log",
+      "strategy_class": "HelloWorld",
+      "session": "s01",
+      "batches": 5400,
+      "minutes": 45,
+      "estimated_pnl_usd": "0.00",
+      "realized_pnl_usd": "0.00",
+      "net_fees_usd": "0.00",
+      "fills": 0,
+      "filled_shares": 0,
+      "rejects": "none",
+      "final_positions": "flat"
+    },
+    {
+      "command": ".venv/bin/pqt backtest strategies/market_maker.py --data data --name s01",
+      "exit_code": 0,
+      "log": "results/baseline/market_maker_s01.log",
+      "strategy_class": "MarketMaker",
+      "session": "s01",
+      "batches": 5400,
+      "minutes": 45,
+      "estimated_pnl_usd": "470.05",
+      "realized_pnl_usd": "466.43",
+      "net_fees_usd": "-52.01",
+      "fills": 732,
+      "filled_shares": 26007,
+      "rejects": "none",
+      "final_positions": "{'BNKY': 145}"
+    },
+    {
+      "command": ".venv/bin/pqt backtest strategies/market_maker.py --data data --name s08",
+      "exit_code": 0,
+      "log": "results/baseline/market_maker_s08.log",
+      "strategy_class": "MarketMaker",
+      "session": "s08",
+      "batches": 5400,
+      "minutes": 45,
+      "estimated_pnl_usd": "105.62",
+      "realized_pnl_usd": "103.41",
+      "net_fees_usd": "-21.08",
+      "fills": 315,
+      "filled_shares": 10540,
+      "rejects": "none",
+      "final_positions": "{'BNKY': 278}"
+    },
+    {
+      "command": ".venv/bin/pqt backtest strategies/market_maker.py --data data --name s16",
+      "exit_code": 0,
+      "log": "results/baseline/market_maker_s16.log",
+      "strategy_class": "MarketMaker",
+      "session": "s16",
+      "batches": 5400,
+      "minutes": 45,
+      "estimated_pnl_usd": "185.30",
+      "realized_pnl_usd": "186.24",
+      "net_fees_usd": "-39.21",
+      "fills": 543,
+      "filled_shares": 19603,
+      "rejects": "none",
+      "final_positions": "{'BNKY': 265}"
+    }
+  ]
+}

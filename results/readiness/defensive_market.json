@@ -1,0 +1,56 @@
+{
+  "batches": 250,
+  "observations": [
+    {
+      "batch": 240,
+      "hppo_halted": false,
+      "brry_two_sided": true,
+      "hppo_orders": 0,
+      "brry_orders": 0
+    },
+    {
+      "batch": 241,
+      "hppo_halted": false,
+      "brry_two_sided": true,
+      "hppo_orders": 2,
+      "brry_orders": 2
+    },
+    {
+      "batch": 242,
+      "hppo_halted": true,
+      "brry_two_sided": true,
+      "hppo_orders": 0,
+      "brry_orders": 2
+    },
+    {
+      "batch": 243,
+      "hppo_halted": true,
+      "brry_two_sided": true,
+      "hppo_orders": 0,
+      "brry_orders": 2
+    },
+    {
+      "batch": 245,
+      "hppo_halted": false,
+      "brry_two_sided": false,
+      "hppo_orders": 2,
+      "brry_orders": 2
+    },
+    {
+      "batch": 246,
+      "hppo_halted": false,
+      "brry_two_sided": false,
+      "hppo_orders": 2,
+      "brry_orders": 0
+    },
+    {
+      "batch": 247,
+      "hppo_halted": false,
+      "brry_two_sided": true,
+      "hppo_orders": 2,
+      "brry_orders": 0
+    }
+  ],
+  "rejects": {},
+  "failure_latched": false
+}
