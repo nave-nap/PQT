@@ -1,6 +1,9 @@
 # Live-safety candidate audit
 
-Base: `ab85993` on `main`. Candidate: `live-safety-candidate`. Installed packages:
+This is the pre-release candidate audit. The later v1 decision and checks are
+recorded in `PROGRESS.md` and `results/readiness/v1_release_audit.json`.
+
+Base: `ab85993` on `main` at the time of this audit. Candidate: `e3d5dd2`. Installed packages:
 `pqt-client==0.2.3`, `pqt-protocol==0.2.3`. The selected microprice branch,
 balanced quote parameters, and `ETF_ENABLED=False` are unchanged. The competition
 freeze file is unchanged and still describes the base, not this candidate.
@@ -49,5 +52,5 @@ Historical files have no news or halts and cannot validate event frequency,
 production reconnect behavior, remote cancel acknowledgments, or the exchange's
 response to queued orders during a failure. Backtest fills do not model market
 reaction or live queue position, and public-mid markout is not the hidden-value
-competition score. No authenticated sandbox run was performed. The candidate
-has not been promoted to the competition freeze or pushed.
+competition score. No authenticated sandbox run was performed. At the time of
+this audit, the candidate had not been promoted to the competition freeze or pushed.

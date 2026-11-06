@@ -1,0 +1,64 @@
+{
+  "release": "v1 - live safety",
+  "selected_strategy": "strategies/competition_strategy.py",
+  "preset": "balanced",
+  "sdk": {
+    "pqt-client": "0.2.3",
+    "pqt-protocol": "0.2.3"
+  },
+  "sessions": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20"
+  ],
+  "limits": {
+    "max_abs_position": {
+      "HPPO": 88,
+      "BNKY": 90,
+      "CRRT": 143,
+      "BRRY": 79
+    },
+    "max_abs_worst_position": {
+      "HPPO": 100,
+      "BNKY": 103,
+      "CRRT": 155,
+      "BRRY": 80
+    },
+    "max_abs_worst_exposure": 115.245,
+    "max_open_per_symbol": 2,
+    "max_messages_batch": 8,
+    "rejects": 0,
+    "exchange_exposure_limit": 600,
+    "exchange_open_orders_per_symbol": 40,
+    "exchange_messages_per_batch": 20
+  },
+  "official_cli": {
+    "session": "s17",
+    "batches": 5400,
+    "fills": 1463,
+    "shares": 12183,
+    "rejects": 0,
+    "self_trades": 0,
+    "estimated_pnl_usd": 308.92,
+    "log": "results/readiness/v1_balanced_s17.log"
+  },
+  "automatic_realized_pnl_floor_mills": null,
+  "fallback_commit": "ab85993"
+}
